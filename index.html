@@ -55,6 +55,25 @@
           <option value="slower">Slower</option>
         </select>
         <br />
+        <label for="quote">Motivational Quote:</label>
+        <input
+          type="text"
+          id="quote"
+          name="quote"
+          required
+          list="quote-choices"
+        />
+        <datalist id="quote-choices">
+          <option value="Winner gets ice cream!"></option>
+          <option value="Second place is the first loser!"></option>
+          <option
+            value="Winning isn't everything. It's the only thing."
+          ></option>
+        </datalist>
+        <br />
+        <label for="message">Meaningful Message:</label>
+        <textarea name="message" id="message" cols="40" rows="8"></textarea>
+        <br />
         <input type="submit" value="Form My Story!" />
       </form>
     </section>
